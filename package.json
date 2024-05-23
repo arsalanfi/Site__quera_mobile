@@ -1,0 +1,19 @@
+{
+  "name": "mobile--first",
+  "version": "1.0.0",
+  "description": "site-quera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsalanfi/Site__quera_mobile.git"
+  },
+  "author": "Arsalan fili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsalanfi/Site__quera_mobile/issues"
+  },
+  "homepage": "https://github.com/arsalanfi/Site__quera_mobile#readme"
+}
