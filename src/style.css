@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Yekan Bakh";
+}
+body {
+  @apply text-[22px] text-text__body bg-back__body;
+}
+a,
+button {
+  @apply text-[20px] hover:bg-btn__hover transition-all duration-300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  @apply text-text__body;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-family: "Yekan", sans-serif;
+}
+h1 {
+  @apply text-[64px] lg:text-[84px] leading-none;
+}
+h2 {
+  @apply text-[50px]  leading-none;
+}
+h3 {
+  @apply text-[25px];
+}

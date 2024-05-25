@@ -4,7 +4,8 @@
   "description": "site-quera",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tailwindcss -i ./src/style.css -o ./src/main.css",
+    "watch": "tailwindcss -i ./src/style.css -o ./src/main.css --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/arsalanfi/Site__quera_mobile/issues"
   },
-  "homepage": "https://github.com/arsalanfi/Site__quera_mobile#readme"
+  "homepage": "https://github.com/arsalanfi/Site__quera_mobile#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
 }
