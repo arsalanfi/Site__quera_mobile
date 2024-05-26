@@ -8,6 +8,9 @@ module.exports = {
       lg:'960px',
       xl:'1440px',
     },
+    fontFamily :{
+      "primary" : "Yekan Bakh",
+    },
     extend: {
       colors : {
       "primary" : "#2C7EF8",

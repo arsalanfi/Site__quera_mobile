@@ -2,9 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+@font-face {
   font-family: "Yekan Bakh";
+  src: url("../font/YekanBakh-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
 body {
   @apply text-[22px] text-text__body bg-back__body;
 }
@@ -20,14 +25,7 @@ h5,
 h5 {
   @apply text-text__body;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h5 {
-  font-family: "Yekan", sans-serif;
-}
+
 h1 {
   @apply text-[64px] lg:text-[84px] leading-none;
 }
