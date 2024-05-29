@@ -15,7 +15,7 @@ body {
 }
 a,
 button {
-  @apply text-[20px] hover:bg-btn__hover transition-all duration-300;
+  @apply text-[20px] hover:bg-btn__hover hover:text-back__body bg-cover transition-all duration-300;
 }
 h1,
 h2,
